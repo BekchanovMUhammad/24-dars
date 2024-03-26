@@ -1,0 +1,153 @@
+html,
+body,
+.wrapper {
+  width: 100%;
+  height: 100%;
+}
+.wrapper {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 120%;
+}
+.baner-img {
+  background-image: url(../imgaes/image/baner\ img\ .png);
+  background: repeat;
+}
+.container {
+  width: 100%;
+  max-width: 1460px;
+  margin: 0 auto;
+  margin-left: x;
+}
+.main {
+  flex: 1 1 auto;
+}
+.hr {
+  width: 1700px;
+  height: 1px;
+  margin-left: 100px;
+  background-color: silver;
+}
+.baner-img {
+  margin-top: 30px;
+}
+.header {
+  margin-left: 300px;
+}
+.header-logo {
+  padding: 20px;
+}
+.header-buton-option {
+  border: 1px solid #555351;
+  border-radius: 8px;
+  padding: 18px;
+  width: 83px;
+  height: 55px;
+  background: #fff;
+  margin-left: 20px;
+}
+.header-buton button {
+  margin-top: 30px;
+  border-radius: 8px;
+  padding: 18px 36px;
+  width: 186px;
+  height: 55px;
+  background: #ff8541;
+  border: none;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+}
+.header-link {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 16px;
+  color: #8d8c8b;
+}
+.header-row {
+  display: flex;
+  gap: 30px;
+}
+
+.links {
+  display: flex;
+  padding: 50px;
+  gap: 30px;
+}
+
+.baner-img-p {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 125%;
+  color: #fff;
+  position: absolute;
+  top: 550px;
+  left: 300px;
+}
+
+.box_one {
+  border-radius: 16px;
+  width: 337px;
+  height: 458px;
+  background: #f9f8f6;
+}
+.box_one_p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 21px;
+  color: #000;
+}
+
+.boxses {
+  display: flex;
+  gap: 50px;
+}
+
+.main-row h1 {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 39px;
+  color: #000;
+}
+.box_one_p_two {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 137%;
+  color: #555351;
+}
+.baner-p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 25px;
+  color: #fff;
+  position: absolute;
+  top: 780px;
+  left: 300px;
+}
+
+/*  MEDIA - START */
+
+@media screen and (max-width: 1324px) {
+  .links {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1535px) {
+  .boxses {
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+  }
+}
+@media screen and (max-width: 1575px) {
+  .baner-img {
+    width: auto;
+    height: auto;
+  }
+}
+/* MEDIA - END */
+
+/*# sourceMappingURL=main.css.map */
